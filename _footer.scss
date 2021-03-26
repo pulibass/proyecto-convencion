@@ -1,0 +1,22 @@
+@import './header';
+@import './mixins';
+@import './variables';
+@import './main';
+
+*{
+    @include format-document;
+}
+
+h6{
+    width: 89%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: $secondary-color-variant2;
+    padding: 0;
+    margin:auto;
+    //margin-top: 45%;
+    color: $primary-color-variant;
+    position:static;
+}

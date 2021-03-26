@@ -1,0 +1,143 @@
+@import './variables';
+@import './mixins';
+@import './header';
+@import './footer';
+
+* {
+    @include format-document;
+}
+
+.contenido-principal {
+
+    @include contenido-principal
+}
+
+.como-llegar {
+    margin: auto;
+    margin-left: 0px;
+
+    color: $primary-color-variant2;
+    width: 70%;
+    height: 400px;
+    float: left;
+    display: block;
+    background-color: rgba(4, 0, 0, 0.726);
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    h5 {
+        font-size: $size1-big1;
+        margin: 0px 0px 10px 15px;
+        text-align: center;
+        width: 30%;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+
+
+}
+
+.icono-direccion {
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    float: left;
+    margin: 0px 0px 0px 0px;
+
+
+
+    .icono-map {
+        width: 5%;
+        height: 5%;
+        float: left;
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        background-color: $secondary-color-variant3;
+        border-radius: 100%;
+
+    }
+
+    .direccion {
+        border-bottom: 2px solid $primary-color-variant;
+        text-align: left;
+        display: flex;
+        width: 100%;
+        margin: 0px 0px 0px 30px;
+        color: $primary-color-variant;
+        float: left;
+    }
+}
+
+.bus-colectivos {
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    float: left;
+    margin: 15px 0px 0px 0px;
+
+
+    .bus {
+        width: 5%;
+        height: 5%;
+        float: left;
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        background-color: $secondary-color-variant4;
+        border-radius: 100%;
+
+    }
+
+    .colectivos {
+        border-bottom: 2px solid $primary-color-variant;
+        width: 100%;
+        text-align: left;
+        float: left;
+        display: flex;
+        padding: 0%;
+        margin: 0px 0px 0px 30px;
+        color: $primary-color-variant;
+    }
+}
+
+.num-tel {
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    float: left;
+    margin: 15px 0px 0px 0px;
+
+
+    .whatsapp {
+        width: 5%;
+        height: 5%;
+        float: left;
+        display: flex;
+        margin: 0px 0px 0px 0px;
+        background-color: $primary-color-variant4;
+        border-radius: 100%;
+
+    }
+
+    .whatsapp-num {
+        border-bottom: 2px solid $primary-color-variant;
+        width: 100%;
+        text-align: left;
+        float: left;
+        display: flex;
+        padding: 0%;
+        margin: 0px 0px 0px 30px;
+        color: $primary-color-variant;
+
+    }
+}
+
+.mapa {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    height: 59%;
+}

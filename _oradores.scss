@@ -1,0 +1,95 @@
+@import './mixins';
+@import './variables';
+
+* {
+    @include format-document;
+}
+
+.contenido-principal {
+    
+    @include contenido-principal
+}
+
+.orador1 {
+    @include oradores-contenido;
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    
+
+
+    .orador1-img {
+        @include oradores-img;
+    }
+
+    .orador1-titulo {
+       @include oradores-titulo;
+        
+    }
+
+    .orador1-cargo{
+        @include oradores-cargo;
+    }
+
+    .orador1-charla{
+        @include oradores-charla;
+    }
+
+}
+
+.orador2 {
+    @include oradores-contenido;
+    display: inline-block;
+   
+    width: 100%;
+    margin-top: 30px;
+
+    .orador2-img {
+        @include oradores-img;
+    }
+
+    .orador2-titulo {
+        @include oradores-titulo;
+    }
+
+    .orador2-cargo{
+        @include oradores-cargo;
+    }
+
+    .orador2-charla {
+        @include oradores-charla;
+    }
+}
+
+.orador3 {
+    @include oradores-contenido;
+    display: inline-block;
+    
+    width: 100%;
+    margin-top: 35px;
+    
+    .orador3-img {
+        @include oradores-img;
+    }
+
+    .orador3-titulo {
+        @include oradores-titulo;
+    }
+    .orador3-cargo{
+        @include oradores-cargo;
+    }
+    .orador3-charla{
+        @include oradores-charla;
+    }
+}
+
+.oradores {
+
+    margin: auto;
+    margin-left: 0px;
+    text-align: left;
+    color: $primary-color-variant2;
+    width: 70%;
+    height: 400px;
+    float: left;
+}

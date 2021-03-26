@@ -1,0 +1,39 @@
+@import './mixins';
+@import './variables';
+
+
+* {
+    @include format-document;
+}
+
+.contenido-principal {
+
+    @include contenido-principal
+}
+
+
+
+
+main {
+    
+    float: left;
+    width: 70%;
+    margin: auto;
+    padding: 2PX;
+    color: $primary-color-variant2;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: $size1-big3;
+    color: $primary-color-variant;
+
+}
+
+p{
+    
+    text-align: center;
+    color: rgb(247, 124, 0);
+}
+

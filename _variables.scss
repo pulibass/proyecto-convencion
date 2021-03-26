@@ -1,0 +1,42 @@
+//colores//
+
+//primarios//
+$primary-color: rgb(255, 201, 187);
+$primary-color-variant: rgb(252, 241, 241);
+$primary-color-variant1: rgb(210, 105, 30);
+$primary-color-variant2:rgb(247, 124, 0);
+$primary-color-variant3: linear-gradiant(#333333, #dd1818);
+$primary-color-variant4: rgba(0, 128, 0, 0.371);
+$primary-color-variant5: rgb(154, 125, 10);
+$primary-color-variant6: rgb(236, 240, 241);
+$primary-color-variant7: rgb(151, 154, 154 );
+
+
+//secundarios//
+$secondary-color: rgb(48, 18, 160);
+$secondary-color-variant: rgb(255, 140, 0);
+$secondary-color-variant1:rgb(14, 14, 15);
+$secondary-color-variant2:rgb(53, 56, 56);
+$secondary-color-variant3: rgba(255, 0, 0, 0.357);
+$secondary-color-variant4: rgba(0, 0, 255, 0.385);
+
+//tamaños fuentes//
+$size: 16px;
+$size-small2: $size / 4;
+$size-small1: $size / 2;
+$size-big1: $size * 2;
+$size-big2: $size * 3;
+
+$size1: 8px;
+$size1-small2: $size1 / 4;
+$size1-small1: $size1 / 2;
+$size1-big1: $size1 * 2;
+$size1-big2: $size1 * 3;
+$size1-big3: $size1 * 5;
+
+$size2: 12px;
+$size2-small2: $size / 4;
+$size2-small1: $size / 2;
+$size2-big1: $size * 2;
+$size2-big2: $size * 3;
+

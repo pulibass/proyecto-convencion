@@ -1,0 +1,75 @@
+@import './mixins';
+@import './variables';
+
+
+
+
+.seleccionado {
+    @include colores-button;
+    overflow: hidden;
+    transition-delay: 0.2s;
+
+}
+
+.banner {
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+
+.banner-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+.menu {
+    background-color: $secondary-color-variant2;
+    color: $secondary-color-variant1;
+
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+
+    .cont-menu {
+
+        display: block;
+    }
+
+    .item-menu {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        width: 80%;
+        height: 30px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .link-menu {
+        color: black;
+        padding: 10px 15px;
+
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 1s ease-in-out;
+
+    }
+
+
+}
+
+nav ul li a:hover {
+    background: #828486;
+    box-shadow: 0px 0px 5px #40464b, 0px 0px 5px #bdfcfc, 0px 0px 5px #ebf5f7;
+    transition-delay: 0.2s;
+    overflow: hidden;
+    background-repeat: none;
+    transform: translateY(5px);
+    box-shadow: 0px 45px 50px 10px rgb(245, 245, 245);
+
+}

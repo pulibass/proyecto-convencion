@@ -1,0 +1,103 @@
+@import './header';
+@import './mixins';
+@import './variables';
+@import './main';
+@import './aside';
+@import './footer';
+@import './comollegar';
+@import './oradores';
+@import './sponsor';
+
+
+    * {
+        @include format-document;
+    }
+
+body {
+    background-image: url(./img/ted4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 1138px) {
+ 
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 45px;
+       
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    nav ul li a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+       
+    }
+
+    p {
+        font-size: 14px;
+    }
+    nav ul li a{
+        font-size: 7px;
+        
+    }
+
+   
+    
+    .contenido {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+   aside{
+        width: 80%;
+        margin: auto;
+
+    }
+    /*aside{
+        width: 81%;
+        margin: 0px 0px 0px 60px;
+        display:block;
+    }*/
+}
+
+@media screen and (max-width: 700px) {
+    nav ul li a{
+        font-size: 6px;
+        padding: 0px;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    nav ul li a{
+        font-size: 5px;
+        padding: 0px;
+       
+
+    }
+}
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+

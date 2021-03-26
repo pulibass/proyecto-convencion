@@ -1,0 +1,89 @@
+@import './mixins';
+@import './variables';
+
+* {
+    @include format-document;
+}
+
+.contenido-principal {
+
+    @include contenido-principal
+}
+
+.sponsors {
+    @include sponsor-contenido
+
+}
+    .platinum {
+        @include sponsors-clases;
+        
+    }
+        .sponsor1 {
+            @include sponsors-display;
+           
+        }
+
+        .sponsor1 img{
+            @include sponsor-img;
+        }
+    
+
+
+
+    .gold {
+        @include sponsors-clases;
+       
+
+        .sponsor2 {
+            @include sponsors-display;
+            
+        }
+        .sponsor2 img{
+            @include sponsor-img;
+            
+        }
+    }
+
+    .silver {
+        @include sponsors-clases;
+        
+    }
+        .sponsor3 {
+            @include sponsors-display;
+           
+        }
+        .sponsor3 img{
+            @include sponsor-img
+            
+        }
+    
+    h5{
+        @include h5-sponsor;
+    }
+
+.platinum-color{
+    background-color: $primary-color-variant6;
+    color: black;
+    border: 2px solid black;
+    border-top: 10px;
+}
+   .gold-color{
+       background-color: $primary-color-variant5;
+   }
+
+   .silver-color{
+       background-color: $primary-color-variant7;
+   }
+
+.titulo-sponsor {
+    color: $primary-color-variant2;
+    font-size: $size1-big2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo-sponsor{
+    color: $primary-color-variant;
+    font-size: $size1-big1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
